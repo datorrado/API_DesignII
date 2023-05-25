@@ -53,7 +53,7 @@ app.get('/:city', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Bienvenido a la API de ciudades');
+    console.log('Bienvenido a la API de ciudades');
 });
 
 app.listen(port, () => {
